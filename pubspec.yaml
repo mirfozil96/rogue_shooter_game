@@ -1,0 +1,22 @@
+name: rogue_shooter_game
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flame: ^1.19.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flame_lint: ^1.2.1
+
+flutter:
+  assets:
+    - assets/images/rogue_shooter/
